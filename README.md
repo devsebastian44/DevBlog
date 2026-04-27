@@ -29,9 +29,8 @@ y modifique sus propios datos.
 
 El stack de desarrollo incluye tipado estricto con **TypeScript 5**, linting con
 **ESLint** configurado para Astro y TypeScript, formateo con **Prettier**, y tests
-E2E con **Playwright**. El proyecto sigue una arquitectura DevSecOps de doble
-repositorio: GitLab como fuente de verdad privada y GitHub como espejo público
-sanitizado.
+E2E con **Playwright**. El proyecto sigue una arquitectura moderna centrada en
+**GitHub** como repositorio principal y fuente de verdad.
 
 ---
 
@@ -104,12 +103,7 @@ sanitizado.
 ### 1. Clonar el repositorio
 
 ```bash
-# Repositorio público (portafolio sanitizado)
 git clone https://github.com/devsebastian44/DevBlog.git
-
-# Repositorio completo de laboratorio (fuente de verdad)
-git clone https://gitlab.com/group-programming-lab/DevBlog.git
-
 cd DevBlog
 ```
 
@@ -142,7 +136,7 @@ PUBLIC_SUPABASE_ANON_KEY=tu_anon_key
 ### 5. Aplicar el esquema de base de datos (Prisma)
 
 ```bash
-# Desde el entorno de laboratorio (GitLab)
+# Para entorno de desarrollo
 npx prisma db push
 # o para entornos de producción
 npx prisma migrate deploy
@@ -295,23 +289,9 @@ la seguridad de tipos en toda la codebase. El script `type-check` ejecuta
 
 ## 🌐 Repository Architecture
 
-Este proyecto sigue una arquitectura distribuida de doble repositorio, separando
-el laboratorio de desarrollo activo del portafolio público:
+Este proyecto está centralizado en **GitHub**, que actúa como la única fuente de verdad y entorno de desarrollo. Aquí se gestiona tanto el código fuente del frontend como las configuraciones de seguridad, base de datos y flujos de trabajo de automatización.
 
-**GitHub** actúa como espejo público sanitizado — expone el código fuente del
-frontend, la configuración del proyecto y la documentación, orientado a la
-presentación profesional del portafolio.
-
-**GitLab** es la fuente de verdad y entorno de laboratorio completo: contiene
-las políticas de seguridad SQL de Supabase, la configuración privada de CI/CD
-(`.gitlab-ci.yml`), la batería de tests E2E con Playwright, los scripts de
-automatización DevSecOps y toda la lógica de infraestructura que no debe
-exponerse públicamente.
-
-### 🔗 Full Source Code
-
-👉 Código completo disponible en GitLab:
-[https://gitlab.com/group-programming-lab/DevBlog](https://gitlab.com/group-programming-lab/DevBlog)
+La arquitectura se beneficia de la integración continua para validaciones de calidad y despliegue automático hacia Vercel.
 
 ---
 
@@ -360,10 +340,6 @@ Copyright © 2025 **Sebastián Zhunaula** (devsebastian44)
       <sub>Full-Stack Developer · Frontend Specialist · Content Creator</sub><br/><br/>
       <a href="https://github.com/devsebastian44">
         <img src="https://img.shields.io/badge/GitHub-devsebastian44-black?style=flat&logo=github" />
-      </a>
-      <br/>
-      <a href="https://gitlab.com/group-programming-lab">
-        <img src="https://img.shields.io/badge/GitLab-group--programming--lab-FC6D26?style=flat&logo=gitlab" />
       </a>
       <br/>
       <a href="https://devblog44.vercel.app">
