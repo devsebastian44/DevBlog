@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     // @ts-expect-error - Tailwind plugin returns an array of plugins which conflicts with Astro Vite PluginOption
-    plugins: [tailwindcss()]
-  }
+    plugins: [tailwindcss()],
+  },
 });

@@ -115,20 +115,24 @@ src/
 
 ```markdown
 ## Descripción
+
 Breve descripción de los cambios
 
 ## Tipo de Cambio
+
 - [ ] Corrección de bug
 - [ ] Nueva funcionalidad
 - [ ] Cambio breaking
 - [ ] Actualización de documentación
 
 ## Testing
+
 - [ ] El código compila sin errores
 - [ ] Todos los tests pasan
 - [ ] Testing manual completado
 
 ## Checklist
+
 - [ ] El código sigue las guías de estilo
 - [ ] Auto-revisión completada
 - [ ] Documentación actualizada

@@ -3,7 +3,7 @@
 ## Versiones Soportadas
 
 | Versión | Soportada          |
-|---------|--------------------|
+| ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 
 ## Reportar una Vulnerabilidad
@@ -41,6 +41,7 @@ Si descubres una vulnerabilidad de seguridad en este proyecto, por favor repórt
 ## Dependencias
 
 Este proyecto utiliza:
+
 - npm audit para escaneo de vulnerabilidades
 - Actualizaciones regulares de dependencias
 - Patches de seguridad aplicados prontamente

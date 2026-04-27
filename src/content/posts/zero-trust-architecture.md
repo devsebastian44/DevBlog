@@ -1,15 +1,15 @@
 ---
-title: "A Practical Implementation Guide for 2024"
-description: "Moving beyond perimeter-based security requires a fundamental shift in how we verify identity. Learn how to implement ZTA in a cloud-native environment."
+title: 'A Practical Implementation Guide for 2024'
+description: 'Moving beyond perimeter-based security requires a fundamental shift in how we verify identity. Learn how to implement ZTA in a cloud-native environment.'
 pubDate: 2023-10-24
-author: "Devsebastian44"
-authorImage: "https://avatars.githubusercontent.com/u/146502229?v=4"
-image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB5u3m5gNlQr_qpN1JepHaf7bEA0Gbhrr12_oQCua7WJxf5jRvD6YgyS72xyibABkr8s73Tt8R26rASqYkKBJxuVwvJM1Q4o3srbhvl6Ylwt8p5-k03pCwtjj_rxgLKB1f613vjQXAFKV7MhvzDLhYU0C6axSOmxiGlXH3XKm1phSVLo0YS2eKbRrrSkmvFH49ejqh1vr6yJfZGcl7JpZaNILXwZvUYhYf2IK_lKBbpqgvS6CCrlZpvjayzorbNv1XNV3ekj4bxRhc"
-category: "Cybersecurity"
-subCategory: "Cloud Infrastructure"
-readTime: "8 min read"
+author: 'Devsebastian44'
+authorImage: 'https://avatars.githubusercontent.com/u/146502229?v=4'
+image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB5u3m5gNlQr_qpN1JepHaf7bEA0Gbhrr12_oQCua7WJxf5jRvD6YgyS72xyibABkr8s73Tt8R26rASqYkKBJxuVwvJM1Q4o3srbhvl6Ylwt8p5-k03pCwtjj_rxgLKB1f613vjQXAFKV7MhvzDLhYU0C6axSOmxiGlXH3XKm1phSVLo0YS2eKbRrrSkmvFH49ejqh1vr6yJfZGcl7JpZaNILXwZvUYhYf2IK_lKBbpqgvS6CCrlZpvjayzorbNv1XNV3ekj4bxRhc'
+category: 'Cybersecurity'
+subCategory: 'Cloud Infrastructure'
+readTime: '8 min read'
 featured: true
-tags: ["zerotrust", "cloudsec", "devops"]
+tags: ['zerotrust', 'cloudsec', 'devops']
 ---
 
 In an era where network perimeters are dissolving, the traditional "castle and moat" security model is obsolete. This guide explores the practical implementation of Zero Trust principles across hybrid cloud infrastructures, ensuring that trust is never assumed, but always verified.

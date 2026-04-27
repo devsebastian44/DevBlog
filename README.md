@@ -75,22 +75,22 @@ E2E con **Playwright**. El proyecto sigue una arquitectura moderna centrada en
 
 ## 🛠️ Tech Stack
 
-| Categoría | Tecnología | Versión |
-|---|---|---|
-| Framework web | Astro (SSR/SSG híbrido) | 6.1.3+ |
-| Lenguaje | TypeScript | 5.9+ |
-| Estilos | Tailwind CSS + Typography | 4.x |
-| Build tool | Vite (vía Astro) | — |
-| BaaS / Auth | Supabase (PostgreSQL + Auth + RLS) | 2.93+ |
-| ORM / Migraciones | Prisma | — |
-| Linting | ESLint + @typescript-eslint | — |
-| Formateo | Prettier | — |
-| Type checking | TypeScript `tsc --noEmit` | — |
-| Tests E2E | Playwright | 1.59+ |
-| Despliegue | Vercel | — |
-| Contenedor | Docker (`.dockerignore`) | — |
-| Node versioning | `.nvmrc` | — |
-| Licencia | MIT | — |
+| Categoría         | Tecnología                         | Versión |
+| ----------------- | ---------------------------------- | ------- |
+| Framework web     | Astro (SSR/SSG híbrido)            | 6.1.3+  |
+| Lenguaje          | TypeScript                         | 5.9+    |
+| Estilos           | Tailwind CSS + Typography          | 4.x     |
+| Build tool        | Vite (vía Astro)                   | —       |
+| BaaS / Auth       | Supabase (PostgreSQL + Auth + RLS) | 2.93+   |
+| ORM / Migraciones | Prisma                             | —       |
+| Linting           | ESLint + @typescript-eslint        | —       |
+| Formateo          | Prettier                           | —       |
+| Type checking     | TypeScript `tsc --noEmit`          | —       |
+| Tests E2E         | Playwright                         | 1.59+   |
+| Despliegue        | Vercel                             | —       |
+| Contenedor        | Docker (`.dockerignore`)           | —       |
+| Node versioning   | `.nvmrc`                           | —       |
+| Licencia          | MIT                                | —       |
 
 ---
 
