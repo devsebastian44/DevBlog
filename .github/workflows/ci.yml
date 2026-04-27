@@ -31,6 +31,9 @@ jobs:
       - name: Sync Astro types
         run: npx astro sync
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps chromium
+
       - name: Type check
         run: npm run type-check
 
