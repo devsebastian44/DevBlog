@@ -52,16 +52,21 @@ npm run type-check
 - `bugfix/descripcion-bug` - Corrección de bugs
 - `hotfix/correccion-critica` - Correcciones críticas
 - `docs/actualizaciones-documentacion` - Cambios en documentación
+- `ci/configuracion-pipeline` - Cambios en CI/CD
 
-### Mensajes de Commit
+### Mensajes de Commit (Conventional Commits)
 
-Usa commits convencionales:
+Este proyecto sigue la convención de [Conventional Commits](https://www.conventionalcommits.org/):
+
 - `feat:` - Nuevas funcionalidades
 - `fix:` - Corrección de bugs
 - `docs:` - Cambios en documentación
-- `style:` - Cambios de estilo de código
+- `style:` - Cambios de estilo (blancos, formato, faltas de puntuación, etc.)
 - `refactor:` - Refactorización de código
 - `test:` - Agregar o actualizar tests
+- `ci:` - Cambios en archivos y scripts de configuración de CI/CD
+- `chore:` - Tareas de mantenimiento (dependencias, etc.)
+- `security:` - Mejoras o parches de seguridad
 
 ## Estructura del Proyecto
 

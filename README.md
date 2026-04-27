@@ -8,6 +8,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=opensourceinitiative&logoColor=white)
 
 > 🌐 **Live:** [devblog44.vercel.app](https://devblog44.vercel.app)
+>
+> ⚠️ **Disclaimer:** This project is for educational and ethical cybersecurity purposes only.
 
 ---
 
@@ -182,6 +184,18 @@ npm run format:check
 npm run type-check
 ```
 
+### Tests
+
+El proyecto utiliza **Playwright** para pruebas E2E. Los tests están configurados para ejecutarse de forma aislada.
+
+```bash
+# Ejecutar todos los tests
+npm test
+
+# Ejecutar tests con UI interactiva
+npx playwright test --ui
+```
+
 ### Despliegue en Vercel
 
 1. Conecta el repositorio a un proyecto en [Vercel](https://vercel.com).
@@ -295,30 +309,19 @@ La arquitectura se beneficia de la integración continua para validaciones de ca
 
 ---
 
-## 🚀 Roadmap
+## 🤝 Contributing
 
-Mejoras sugeridas a partir de la arquitectura y dependencias detectadas en el código:
+¡Las contribuciones son bienvenidas! Para colaborar:
 
-- **Búsqueda full-text de artículos** integrada con las capacidades de búsqueda
-  vectorial de Supabase (`pg_vector`) para búsqueda semántica de contenido.
-- **Sistema de categorías y etiquetas** con páginas filtradas por tema
-  (programación, ciberseguridad, IA, data science) y conteo de artículos por tag.
-- **RSS Feed** generado automáticamente por Astro para suscripción al blog.
-- **Modo oscuro / claro** con toggle persistido en `localStorage` y respeto
-  al `prefers-color-scheme` del sistema operativo.
-- **Panel de administración** para gestión de posts, moderación de comentarios
-  y visualización de métricas de engagement por artículo.
-- **Comentarios anidados** con soporte de respuestas a comentarios específicos
-  y notificaciones en tiempo real vía Supabase Realtime.
-- **Open Graph dinámico** con imágenes de preview generadas server-side para
-  cada artículo, mejorando el compartido en redes sociales.
-- **Tests E2E con Playwright** ampliados para cubrir los flujos de autenticación,
-  interacciones sociales y el Danger Zone de eliminación de cuenta.
-- **Internacionalización (i18n)** con soporte nativo de Astro para contenido
-  en español e inglés.
-- **Sitemap automático** generado con `@astrojs/sitemap` para optimización SEO.
+1. **Fork** el repositorio.
+2. Crea una rama para tu mejora: `git checkout -b feature/nueva-funcionalidad`.
+3. Realiza tus cambios siguiendo las [guías de estilo](docs/CONTRIBUTING.md).
+4. Asegúrate de que los tests pasen: `npm test`.
+5. Envía un **Pull Request**.
 
 ---
+
+## 🚀 Roadmap
 
 ## 📄 License
 
